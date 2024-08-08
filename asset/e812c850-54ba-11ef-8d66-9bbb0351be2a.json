@@ -1,0 +1,107 @@
+{
+  "entityType" : "ASSET",
+  "entity" : {
+    "additionalInfo" : null,
+    "assetProfileId" : {
+      "entityType" : "ASSET_PROFILE",
+      "id" : "e810cc80-54ba-11ef-8d66-9bbb0351be2a"
+    },
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    },
+    "externalId" : null,
+    "id" : {
+      "entityType" : "ASSET",
+      "id" : "e812c850-54ba-11ef-8d66-9bbb0351be2a"
+    },
+    "label" : "Office",
+    "name" : "Office",
+    "ownerId" : null,
+    "type" : "office"
+  },
+  "relations" : [ {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "ASSET",
+      "id" : "e812c850-54ba-11ef-8d66-9bbb0351be2a"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "e8197f10-54ba-11ef-8d66-9bbb0351be2a"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "ASSET",
+      "id" : "e812c850-54ba-11ef-8d66-9bbb0351be2a"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "e821e380-54ba-11ef-8d66-9bbb0351be2a"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "ASSET",
+      "id" : "e812c850-54ba-11ef-8d66-9bbb0351be2a"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "e828c150-54ba-11ef-8d66-9bbb0351be2a"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "ASSET",
+      "id" : "e812c850-54ba-11ef-8d66-9bbb0351be2a"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "e830b090-54ba-11ef-8d66-9bbb0351be2a"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON"
+  } ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "address",
+      "lastUpdateTs" : 1723034720619,
+      "longValue" : null,
+      "strValue" : "246 Bowery New York NY 10012 United States"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "email",
+      "lastUpdateTs" : 1723034720619,
+      "longValue" : null,
+      "strValue" : "support@office-center.com"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "floorPlan",
+      "lastUpdateTs" : 1723034720619,
+      "longValue" : null,
+      "strValue" : "https://img.thingsboard.io/dashboards/smart-building/office-floor-plan.jpg"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "phone",
+      "lastUpdateTs" : 1723034720619,
+      "longValue" : null,
+      "strValue" : "+1112223334"
+    } ]
+  }
+}
